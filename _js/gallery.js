@@ -5,6 +5,7 @@
  */
 function showRandomImageAtStart() {
     // TODO: Select all 6 links (<a>) in the thumbnail section. They contain the URLs to the full images.
+    const links = document.querySelectorAll'gallery.thumbnail'
     // TODO: Select a random entry out of these 6.
     // TODO: Implement switchFullImage() below.
     // TODO: Call switchFullImage() with the URL of the random image and the alt attribute of the thumbnail (it contains the description).
